@@ -18,7 +18,7 @@ function App() {
 
         // Render the Turnstile widget
         (window as any).turnstile.render(turnstileRef.current, {
-          sitekey: '0x4AAAAAABaeDHdwHVmJobfE',
+          sitekey: '0x4AAAAAAB87oaQHTRM947_Z',
           theme: 'dark',
           callback: (token: string) => {
             // Redirect on successful verification
